@@ -1,3 +1,6 @@
-A template for starting new projects. The SIAM folder  contains LaTeX Macros distributed by [SIAM](https://www.siam.org), and downloaded from their [Macros](https://www.siam.org/publications/journals/about-siam-journals/information-for-authors). To comply with their permissions, they are included here as a whole. 
+Bachelor Project - Quantifying uncertainties in neural field model
 
-In the starter Manuscript folder, there is also a copy of the most recent SIAM macro style, wiith an article starter that I use for my projects. In concrete projects, I delete the SIAM folder, which is not necessary for the compilation, as all necessary files for my project are in the Manuscript folder.
+Zuzanna Piotrowska supervised by dr. Daniele Avitabile -- VU Amsterdam
+
+Abstract:
+In this thesis, we compare the Monte Carlo and stochastic collocation methods that can be used to estimate mean and variance of quantities of interest. First, we look into an example problem to ensure thorough understanding of the methods as well as the ability to compare the results to analytical findings. We then move to a more complex framework - neural field model. We start by analysing its steady states and later we introduce a random parameter that defines if the solution converges to a localised spike in neural activity or to a zero steady state. After estimating the mean we look at its possible application in approximating the probability of seeing a one bump steady state as opposed to a trivial one. Finally, we study the error bounds. The results found in this paper can be a starting point for further research that can eventually contribute to a more accurate error quantification in medical studies.
